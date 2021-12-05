@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item
+        android:id="@+id/nav_eateries"
+        android:icon="@drawable/ic_restaurant_black_24dp"
+        android:title="Eateries"></item>
+    <item
+    android:id="@+id/nav_park"
+    android:icon="@drawable/ic_place_black_24dp"
+    android:title="Park"></item>
+
+
+
+    <item
+        android:id="@+id/nav_calories"
+        android:icon="@drawable/ic_note_add_black_24dp"
+        android:title="Calories Diary"></item>
+    <item
+        android:id="@+id/nav_me"
+        android:icon="@drawable/ic_perm_identity_black_24dp"
+        android:title="Me"></item>
+
+
+</menu>

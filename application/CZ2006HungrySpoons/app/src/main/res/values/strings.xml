@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">HungrySpoons</string>
+    <string name="duration">Duration</string>
+    <string name="minutes">Minutes</string>
+    <string name="cycling">Cycling</string>
+    <string name="swimming">Swimming</string>
+    <string name="running">Running</string>
+    <string name="yoga">Yoga</string>
+    <string name="brisk_walking">Brisk Walk</string>
+    <string name="total_calories">Total Calories</string>
+    <string name="exercise_recommendation">Exercise Recommendation</string>
+</resources>

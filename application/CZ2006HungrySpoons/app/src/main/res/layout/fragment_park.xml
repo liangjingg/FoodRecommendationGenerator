@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:weightSum="100"
+        android:paddingTop="20px"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/parkSearch"
+        >
+        <AutoCompleteTextView
+            android:id="@+id/autoCompleteTextView1"
+            android:layout_width="500px"
+            android:layout_weight="90"
+            android:layout_height="wrap_content"
+            android:hint="Park Location"
+            />
+        <ImageButton
+            android:id="@+id/bSearch"
+            android:layout_weight="10"
+            android:layout_width="75px"
+            android:layout_height="75px"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/search"
+            android:background="@null"
+            android:scaleType="fitCenter"
+
+            android:adjustViewBounds="true"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/parkSearch"
+        >
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:padding="10px"/>
+    <ImageView
+        android:layout_width="550px"
+        android:layout_height="300px"
+        android:paddingLeft="300px"
+        android:paddingTop="10px"
+        android:paddingBottom="10px"
+        android:id="@+id/ivSorry"
+        android:src="@drawable/sorry"
+        android:visibility="invisible"
+        android:gravity="center"
+        />
+    <TextView
+        android:id="@+id/tvSorry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="200px"
+        android:visibility="invisible"
+        android:text="Sorry, no parks for this location."
+        android:paddingBottom="2dip"
+        android:textColor="@color/colorAccent"
+        />
+        </LinearLayout>
+
+</RelativeLayout>
